@@ -1,32 +1,47 @@
 <!doctype html>
 <html>
 	<head>
-		<style>
-			body {background-color: #ffffb3}
-		</style>
 		<title>UMKM GO</title>
-		<! nanti insert logonya>
+		<link href="./style.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
-		<h1 style="color: grey; font-size: 20px;" onclick="alert('Balik ke awal program');"> UMKM go</h1>
-	</body>
-	<body>
-		<hr>
-		<div style='float: left;width: 10%; font-size: 15px'>OUR CONTENT</div>
-		<div style='float: left; width: 10%; margin-left: 10px; font-size: 15px'>ABOUT US</div>
-		<! ini nantinya buat yg image pencarian>
-		<div style='float: right; width: 10%; font-size: 15px'>SIGN IN</div>
-		<hr style="margin: 35px 0 0 0">
-	</body>
-	<body>
-		<h1 style="margin-top: 40px; font-size: 40px; text-align: center;">OUR CONTENT</h1>
-		<p style="margin-top: 100px; font-size: 35px">Ini nantinya diisi sama 2 box itu</p>
-	</body>
+		<h1 onclick="alert('Balik ke awal program');">UMKM <span class="go">go</span></h1>
+		<div class="navbar">
+			<ul>
+				<li>OUR CONTENT</li>
+				<li>ABOUT US</li>
+				<li style="float:right">SIGN IN</li>
+			</ul>
+		</div>
+		<!-- ini nantinya buat yg image pencarian -->
+		<h2>OUR CONTENT</h2>
+		<div class="content">
+				<div class="item">
+					<img src="content1.png" width="250px" height="200px">
+					<h3>Modul dan<br>Video Teori</h3>
+					<p>Berisi materi mengenai bisnis secara teori, dikemas dalam bentuk modul materi yang tertulis dan video penjelasan dari ahli.</p>
+				</div>
+				<div class="item">
+					<img src="content2.png" width="250px" height="200px"> 
+					<h3>Video <br>Tutorial</h3>
+					<p>Berisi video tutorial praktik step by step beserta penjelasan dari ahli.</p>
+				</div>
+				<div class="item">
+					<img src="content3.png" width="250px" height="200px">
+					<h3>Monthly<br>Webinar</h3>
+					<p>Seminar online bulanan oleh pembicara dari berbagai bidang.</p>
+				</div>
+				<div class="item">
+					<img src="content4.png" width="250px" height="200px">
+					<h3>Q&A <br>dengan Ahli</h3>
+					<p>Platform untuk berkonsultasi secara privat kepada ahli melalui pesan tertulis.</p>
+				</div>
+		</div>
 		<footer>
-			<! nanti ditambahin logo telepon, facebook, sama insta nya>
-			<p style="font-size: 10px">+62 821 47568923</p>
-			<p style="font-size: 10px">UMKM.go</p>
-			<p style="font-size: 10px">@UMKM_go</p>
+			<!-- nanti ditambahin logo telepon, facebook, sama insta nya-->
+			<img src="telp.png" height="10px"><p>+62 821 47568923</p><br>
+			<img src="fb.png" height="10px"><p>UMKM.go</p><br>
+			<img src="ig.png" height="10px"><p>@UMKM_go</p>
 		</footer>
 	</body>
 </html>

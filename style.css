@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(255, 255, 179);
+    padding: 0;
+    margin: 0;;
+}
+
+h1 {
+    color: grey;
+    font-size: 30px;
+    font-family: Verdana;
+    margin: 10px 20px;
+}
+
+.go{
+    color: grey;
+    font-size: 30px;
+    font-family: 'Lucida Handwriting';
+    margin-left: -10px;
+}
+
+.navbar ul{
+    background-color: rgb(18, 100, 96);
+    list-style-type: none;
+    padding : 0;
+    overflow: hidden;
+    width: 100% !important;
+}
+
+.navbar li{
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: 'Lucida Sans';
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+h2 {
+    margin-top: 25px;
+    font-family: 'Franklin Gothic';
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color:rgb(18, 100, 96);
+    margin-bottom: 15px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    grid-template-rows: 430px;
+    grid-gap: 20px;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    color: whitesmoke;
+}
+
+.item{
+    background-color: rgb(18, 100, 96);
+}
+
+.content h3{
+    font-size:25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.content p{
+    font-size: 15px;
+    padding: 0px 15px;
+}
+
+footer{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 40px;
+    width: 100% !important;
+    background-color: rgb(106, 180, 177);
+    padding-bottom: 15px;
+}
+
+footer img, footer p{
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: -10px;
+}
