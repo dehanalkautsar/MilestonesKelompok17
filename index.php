@@ -12,6 +12,5 @@ if(isset($_GET['logout'])){
     header("location : login.php");
 }
 
-//Belum ditambah html mulai menit 30:00
 include ('umkm_go.html');
 ?>
