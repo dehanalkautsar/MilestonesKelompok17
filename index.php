@@ -13,5 +13,5 @@ if(isset($_GET['logout'])){
 }
 
 //Belum ditambah html mulai menit 30:00
+include ('umkm_go.html');
 ?>
-<?php include('../UMKM_go.html')?>
