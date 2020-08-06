@@ -109,3 +109,8 @@ footer img, footer p{
     margin-left: 20px;
     margin-right: -10px;
 }
+
+
+a+a {
+    margin-left: 10px;
+  }
