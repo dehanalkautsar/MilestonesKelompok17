@@ -9,7 +9,8 @@
         <div class="header">
             <h2>Login</h2>
         </div>
-        <form action="registration.php" method="post">
+        <form action="login.php" method="post">
+        <?php include('errors.php') ?>
             <div>
                 <label for="email">E-mail : </label>
                 <input type="text" name="email" required>

@@ -79,7 +79,7 @@ if(isset($_POST['login_user'])){
         $query = "SELECT * FROM user where email='$email' AND password ='$password' ";
         $result = mysqli_query($db, $query);
 
-        if(mysqli_num_results($result)){
+        if(mysqli_num_rows($result)){
             $_SESSION['email'] = $email;
             $_SESSION['sukses'] = "Anda sudah masuk";
         
