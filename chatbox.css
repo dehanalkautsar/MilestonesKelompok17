@@ -1,0 +1,92 @@
+body {
+     background-color: rgb(255, 255, 179);
+}
+
+.open_button {
+     background-image: linear-gradient(20deg, rgb(67, 123, 141), rgb(184, 69, 184));
+     color: white;
+     padding: 16px 20px;
+     cursor: pointer;
+     opacity: 0.98;
+     border: none;
+     position: fixed;
+     bottom: 2.5%;
+     right: 2.5%;
+     width: 23%;
+     font-family: 'Lucida Sans';
+}
+   
+.chat_popup {
+     position: fixed;
+     display: none;
+     bottom: 2%;
+     right: 2%;
+     z-index: 9;
+}
+   
+.form_container {
+     max-width: 300px;
+     padding: 10px;
+     background-image: linear-gradient(20deg, lightblue, violet);
+}
+
+.form_container .chatty {
+     color: sienna;
+     font-size: 30px;
+     font-family: 'lucida sans';
+     margin-left: -2px;
+}
+
+.form_container label {
+     font-family: 'lucida sans';
+     color: teal;
+}
+
+.form_container textarea {
+     width: 90%;
+     padding: 15px;
+     margin: 5px 0 22px 0;
+     min-height: 200px;
+     border: none;
+     background: rgb(255, 255, 255);
+     
+}
+   
+.form_container textarea:focus {
+     background-color: rgb(214, 240, 228);
+     outline: none;
+}
+   
+.form_container .submit_btn {
+     background-color: #4CAF50;
+     color: white;
+     border: none;
+     padding: 16px 20px;
+     cursor: pointer;
+     width: 100%;
+     margin-bottom:10px;
+     opacity: 0.8;
+     font-family: 'Lucida Sans';
+}
+   
+.form_container .cancel_btn {
+     background-color: rgb(170, 32, 32);
+     color: white;
+     border: none;
+     width: 49%;
+     opacity: 0.9;
+     font-family: 'Lucida Sans';
+}
+
+.form_container .inbox {
+     background-color: yellowgreen;
+     color: white;
+     border: none;
+     width: 49%;
+     opacity: 0.9;
+     font-family: 'Lucida Sans';
+}
+
+.form_container .submit_btn:hover, .open_button:hover {
+     opacity: 1;
+}

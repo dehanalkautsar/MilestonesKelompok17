@@ -3,6 +3,7 @@
 <head>
 	<title>Tutorial | UMKM GO</title>
 	<link href="./style.css" type="text/css" rel="stylesheet">
+	<link href="./chatbox.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 	<a style="text-decoration:none" href="./umkm_go.html"><h1>UMKM <span class="go">go</span></h1></a>
@@ -33,6 +34,33 @@
 		<img width="413" height="230" src="https://i.ytimg.com/vi/wvXDB9dMdEo/mqdefault.jpg" style="display:inline">
 		<img width="413" height="230" src="https://i.ytimg.com/vi/3m-7Kh8RAks/mqdefault.jpg" style="display:inline">
 	</div>
+		
+	<!--chatbox-->
+	<button class="open_button" onclick="openForm()">QnA</button>
+
+	<div class="chat_popup" id="myForm">
+		<form class="form_container">
+			<h1 class="chatty">Chat</h1>
+			<label for="msg">Kamu bisa berdisuksi dengan ahli ekonomi di forum ini!</label>
+			<textarea placeholder="Ask the expert..." name="msg" required></textarea>
+
+			<button type="submit" class="submit_btn">Send</button>
+			<button type="button" class="cancel_btn" onclick="closeForm()">Close</button>
+			<button type="button" class="inbox">Inbox</button>
+		</form>
+	</div>
+
+	<script>
+	function openForm() {
+		document.getElementById("myForm").style.display = "block";
+	}
+
+	function closeForm() {
+		document.getElementById("myForm").style.display = "none";
+	}	
+
+	</script>
+
 
 	<footer>
 		<img src="telp.png" height="10px"><p>+62 821 47568923</p><br>
