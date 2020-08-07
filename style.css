@@ -83,6 +83,12 @@ h2 {
     background-color: rgb(18, 100, 96);
 }
 
+.item iframe, img{
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom:20px;
+}
+
 .content h3{
     font-size:25px;
     font-weight: 700;
@@ -114,3 +120,25 @@ footer img, footer p{
 a+a {
     margin-left: 10px;
   }
+
+h4 {
+    margin-top: 25px;
+    font-family: 'Franklin Gothic';
+    font-size: 45px;
+    font-weight: 600;
+    text-align: left;
+    color:rgb(15, 94, 90);
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.item p {
+    margin-top: 15px;
+    font-family: 'Franklin Gothic';
+    font-size: 30px;
+    font-weight: 250;
+    color:rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-bottom: -5px;
+    padding-top: 10px;
+}
