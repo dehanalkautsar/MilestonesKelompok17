@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UMKM GO</title>
+	<link href="./style.css" type="text/css" rel="stylesheet">
+	<link href="./chatbox.css" type="text/css" rel="stylesheet">
+  <link href="./videoteori.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<h1>UMKM <span class="go">go</span></h1>
+	<div class="navbar">
+		<ul>
+			<li>OUR CONTENT</li>
+			<li>ABOUT US</li>
+			<li style="float:right">SIGN IN</li>
+			<div class="searchbar">
+				<input class="search-txt" type="text" name="" placeholder="Search"><img src="search.png" height="19px" onclick="alert('searching')">
+			</div>
+		</ul>
+	</div>
+	<p>Modul dan Video Teori</p>
+  <div id="slider">
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <div id="slides">
+      <div id="overflow">
+        <div class="inner">
+          <div class="slide slide_1">
+            <div class="slide-content">
+              <iframe src="https://www.youtube.com/embed/kRaJZIsC3qM" allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+          <div class="slide slide_2">
+            <div class="slide-content">
+              <iframe src="https://www.youtube.com/embed/IYXDaLbgP5o" allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+          <div class="slide slide_3">
+            <div class="slide-content">
+              <iframe src="https://www.youtube.com/embed/x_hzHu555HA" allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="controls">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+    </div>
+    <div id="bullets">
+			<label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+    </div>
+  </div>
+
+	<!--chatbox-->
+	<button class="open_button" onclick="openForm()">QnA</button>
+
+	<div class="chat_popup" id="myForm">
+		<form class="form_container">
+			<h1 class="chatty">Chat</h1>
+			<label for="msg">Kamu bisa berdisuksi dengan ahli ekonomi di forum ini!</label>
+			<textarea placeholder="Ask the expert..." name="msg" required></textarea>
+
+			<button type="submit" class="submit_btn">Send</button>
+			<button type="button" class="cancel_btn" onclick="closeForm()">Close</button>
+			<button type="button" class="inbox">Inbox</button>
+		</form>
+	</div>
+
+	<script>
+	function openForm() {
+		document.getElementById("myForm").style.display = "block";
+	}
+
+	function closeForm() {
+		document.getElementById("myForm").style.display = "none";
+	}
+
+	</script>
+
+	<footer>
+		<img src="telp.png" height="10px"><p>+62 821 47568923</p><br>
+		<img src="fb.png" height="10px"><p>UMKM.go</p><br>
+		<img src="ig.png" height="10px"><p>@UMKM_go</p>
+	</footer>
+</body>
+</html>
