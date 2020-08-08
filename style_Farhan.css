@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 background {
     background-color: rgb(244, 244, 244);
-=======
-body {
-    background-color: rgb(255, 255, 179);
->>>>>>> bd08049a6db553d671797490a3f269467c81a4f1
     padding: 0;
     margin: 0;;
 }
@@ -12,7 +7,6 @@ body {
 h1 {
     color: grey;
     font-size: 30px;
-<<<<<<< HEAD
     font-family: 'Microsoft JhengHei UI';
     margin: 10px 20px;
 }
@@ -21,25 +15,11 @@ h1 {
     color: rgb (2, 195, 154);
     font-size: 30px;
     font-family: 'Microsoft JhengHei UI';
-=======
-    font-family: Verdana;
-    margin: 10px 20px;
-}
-
-.go{
-    color: grey;
-    font-size: 30px;
-    font-family: 'Lucida Handwriting';
->>>>>>> bd08049a6db553d671797490a3f269467c81a4f1
     margin-left: -10px;
 }
 
 .navbar ul{
-<<<<<<< HEAD
     background-color: rgb(49, 51, 51);
-=======
-    background-color: rgb(18, 100, 96);
->>>>>>> bd08049a6db553d671797490a3f269467c81a4f1
     list-style-type: none;
     padding : 0;
     overflow: hidden;
@@ -51,44 +31,17 @@ h1 {
     float: left;
     padding: 10px;
     margin-left: 10px;
-<<<<<<< HEAD
     margin-right: 10px;
     font-size: 10px;
     font-family: 'Microsoft YaHei UI';
     font-weight: 700;
     color: rgb (255, 255, 255) ;
-=======
-    margin-right: 15px;
-    font-size: 15px;
-    font-family: 'Lucida Sans';
-    font-weight: 700;
-    color: whitesmoke;
-}
-
-.navbar a{
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-.navbar a:hover{
-    color: whitesmoke;
-    text-decoration: underline;
->>>>>>> bd08049a6db553d671797490a3f269467c81a4f1
 }
 
 .searchbar {
     position: absolute;
-<<<<<<< HEAD
     top: 14.4%;
-<<<<<<< HEAD
     left: 84%;
-=======
-    left: 84.5%;
->>>>>>> bd08049a6db553d671797490a3f269467c81a4f1
-=======
-    top: 95px;
-    left: 1130px;
->>>>>>> 0998a6ed30b4be85badafced563482e4731a202e
     transform: translate(-50%,-50%);
     height: 40px;
     border-radius: 40px;
@@ -105,7 +58,6 @@ h1 {
 
 h2 {
     margin-top: 25px;
-<<<<<<< HEAD
     font-family: 'Candara';
     font-size: 50px;
     font-weight: 700;
@@ -140,30 +92,10 @@ h2 {
     justify-content: center;
     align-content: center;
     font-family: 'Microsoft YaHei UI';
-=======
-    font-family: 'Franklin Gothic';
-    font-size: 50px;
-    font-weight: 700;
-    text-align: center;
-    color:rgb(18, 100, 96);
-    margin-bottom: 15px;
-}
-
-.content{
-    display: grid;
-    grid-template-columns: repeat(4,250px);
-    grid-template-rows: 430px;
-    grid-gap: 20px;
-    justify-items: center;
-    justify-content: center;
-    align-content: center;
-    font-family: 'Lucida Sans';
->>>>>>> bd08049a6db553d671797490a3f269467c81a4f1
     text-align: center;
     color: whitesmoke;
 }
 
-<<<<<<< HEAD
 .item2{
     background-color: rgb(18, 100, 141);
 
@@ -201,10 +133,6 @@ content4{
 
 .item4{
     background-color: rgb(18, 100, 141) ;
-=======
-.item, .tutorial{
-    background-color: rgb(18, 100, 96);
->>>>>>> bd08049a6db553d671797490a3f269467c81a4f1
 }
 
 .content h3{
@@ -223,11 +151,7 @@ footer{
     font-weight: 700;
     margin-top: 40px;
     width: 100% !important;
-<<<<<<< HEAD
     background-color: rgb(0, 0, 0);
-=======
-    background-color: rgb(106, 180, 177);
->>>>>>> bd08049a6db553d671797490a3f269467c81a4f1
     padding-bottom: 15px;
 }
 
@@ -236,61 +160,13 @@ footer img, footer p{
     margin-bottom: 0;
     margin-left: 20px;
     margin-right: -10px;
-<<<<<<< HEAD
     color: rgb (2, 128, 144);
     font-family: 'Roboto Mono':
     font-size: 20px;
-=======
->>>>>>> bd08049a6db553d671797490a3f269467c81a4f1
 }
 
 a+a {
     margin-left: 10px;
   }
 
-<<<<<<< HEAD
-=======
-h4 {
-    margin-top: 25px;
-    font-family: 'Franklin Gothic';
-    font-size: 45px;
-    font-weight: 600;
-    text-align: left;
-    color:rgb(15, 94, 90);
-    margin-bottom: 15px;
-    margin-left: 15px;
-}
-
-.tutorial p{
-    margin-top: 15px;
-    font-family: 'Franklin Gothic';
-    font-size: 30px;
-    font-weight: 250;
-    color:rgb(255, 255, 255);
-    margin-left: 20px;
-    margin-bottom: -5px;
-    padding-top: 10px;
-}
-
-.tutorial iframe, .tutorial img{
-    margin-top:20px;
-    margin-left:20px;
-    margin-bottom:20px;
-}
-
-.about{
-    margin: 70px 0;
-    background-color: whitesmoke;
-    padding-top: 25px;
-    padding-bottom: 50px;
-}
-.about p{
-    font-family: 'Lucida Sans';
-    font-size: 25px;
-    text-align: center;
-    color: rgb(15, 94, 90);
-    width: 1000px;
-    margin: auto;
-}
->>>>>>> bd08049a6db553d671797490a3f269467c81a4f1
 
