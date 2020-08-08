@@ -1,3 +1,17 @@
+#button {
+  background-color: rgb(18, 100, 96); /* Green */
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+#ul li a{
+  text-align: left;
+}
 #slider {
   margin: 0 auto;
   width: 800px;
