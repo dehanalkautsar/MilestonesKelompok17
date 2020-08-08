@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(255, 255, 179);
+    padding: 10px;
+    margin: 0;
+}
+
+h1 {
+    color: grey;
+    font-size: 50px;
+    font-family: Verdana;
+    text-align: center;
+    display: block;
+    margin-top:-30px;
+}
+
+.go{
+    color: grey;
+    font-size: 50px;
+    font-family: 'Lucida Handwriting';
+    margin-left: -15px;
+}
+
+.container{
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: auto;
+    height: 500px;
+    width: 400px;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.header h2{
+    color:black;
+}
+
+button{
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    margin-top: 15px !important;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+.container p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form{
+    text-align: justify;
+    margin-left: 25px;
+}
+
+label, input{
+    margin-bottom: 8px;
+}
+
+.align{
+    margin-left:-25px !important;
+}
