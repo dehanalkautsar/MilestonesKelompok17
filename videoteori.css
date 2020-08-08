@@ -9,9 +9,7 @@
   font-size: 16px;
   cursor: pointer;
 }
-#ul li a{
-  text-align: left;
-}
+
 #slider {
   margin: 0 auto;
   width: 800px;
@@ -48,12 +46,12 @@
 #slides .inner {
   transition: margin-left 800ms cubic-bezier(0.770, 0.000,
 0.175, 1.000);
-  width: 400%
+  width: 400%;
   line-height: 0;
   height: 300px;
 }
 #slides .slide {
-  width: 25%
+  width: 25%;
   float:left;
   display: flex;
   justify-content: center;
