@@ -41,8 +41,8 @@ h1 {
 
 .searchbar {
     position: absolute;
-    top: 14.4%;
-    left: 84%;
+    top: 95px;
+    left: 1130px;
     transform: translate(-50%,-50%);
     height: 40px;
     border-radius: 40px;
@@ -82,7 +82,7 @@ footer img, footer p{
 
 }
 
-.video-container iframe,
+.video-container iframe
 {
     position: absolute;
     top:0;
