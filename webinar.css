@@ -1,0 +1,142 @@
+
+body {
+    background-color: rgb(255, 255, 179);
+    padding: 0;
+    margin: 0;;
+}
+
+h1 {
+    color: grey;
+    font-size: 30px;
+    font-family: Verdana;
+    margin: 10px 20px;
+}
+
+.go{
+    color: grey;
+    font-size: 30px;
+    font-family: 'Lucida Handwriting';
+    margin-left: -10px;
+}
+
+.navbar ul{
+    background-color: rgb(18, 100, 96);
+    list-style-type: none;
+    padding : 0;
+    overflow: hidden;
+    width: 100% !important;
+}
+
+.navbar li{
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: 'Lucida Sans';
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.searchbar {
+    position: absolute;
+    top: 14.4%;
+    left: 84%;
+    transform: translate(-50%,-50%);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.searchbar img {
+    display: inline-block;
+    margin-top: -40px;
+    margin-bottom: 15.5px;
+    margin-left: 177.5px;
+    margin-right: 10px;
+}
+
+footer{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 40px;
+    width: 100% !important;
+    background-color: rgb(106, 180, 177);
+    padding-bottom: 15px;
+}
+
+footer img, footer p{
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: -10px;
+}
+
+.video-container{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+
+}
+
+.video-container iframe,
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.center{
+    width: 350px;
+    height: 500px;
+}
+
+
+
+.content{
+    width: 100%;
+    margin: 30px auto 30px;
+}
+
+.content .main-content{
+    width: 100%;
+    float:left;
+    height: 40%;
+
+
+}
+
+.clearfix::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.recent{
+    margin: 20px;
+}
+.content .main-content .post{
+    margin:20px auto;
+    width: 95%;
+    height: 270px;
+    border-radius:5px;
+    background: white;
+}
+
+.content .main-content .post .post-img{
+    width: 45%;
+    height: 100%;
+    float:left;
+}
+
+.content .main-content .post .desc{
+    padding: 10px;
+    width: 50%;
+    float: right;
+    text-decoration: none;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Monthly Webinar</title>
+	<link href="./webinar.css" type="text/css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="./chatbox.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+	<h1>UMKM <span class="go">go</span></h1>
+		<div class="navbar">
+			<ul>
+				<li>OUR CONTENT</li>
+				<li>ABOUT US</li>
+				<li style="float:right">SIGN IN</li>
+				<div class="searchbar">
+					<input class="search-txt" type="text" name="" placeholder="Search"><img src="search.png" height="19px" onclick="alert('searching')">
+				</div>
+			</ul>
+		</div>
+	</div>
+
+	<div class="main-web">
+		<p align="center"><a href="webinar1.html"><img src="webinar.jpg" width="1000px" length="1000px"></a></p>
+	</div>
+		
+
+
+	<!--chatbox-->
+	<button class="open_button" onclick="openForm()">QnA</button>
+
+	<div class="chat_popup" id="myForm">
+		<form class="form_container">
+			<h1 class="chatty">Chat</h1>
+			<label for="msg">Kamu bisa berdisuksi dengan ahli ekonomi di forum ini!</label>
+			<textarea placeholder="Ask the expert..." name="msg" required></textarea>
+
+			<button type="submit" class="submit_btn">Send</button>
+			<button type="button" class="cancel_btn" onclick="closeForm()">Close</button>
+			<button type="button" class="inbox">Inbox</button>
+		</form>
+	</div>
+
+	<script>
+		function openForm() {
+			document.getElementById("myForm").style.display = "block";
+		}
+	
+		function closeForm() {
+			document.getElementById("myForm").style.display = "none";
+		}	
+	
+	</script>
+	
+
+
+	<div class="content clearfix">
+		<div class="main-content">
+			<h2 class="recent">Past Webinars</h2>
+			
+			<div class="post">
+				<a href="webinar3.html"><img alt="" class="post-img" src="https://i.ytimg.com/vi/GaZzf2B8EiI/mqdefault.jpg" ></a>
+				<div class="desc">
+					<h2><a href="webinar3.html">Pengembangan Strategi Desain Kemasan dan Branding Produk UMKM</a></h2>
+					<i class="far calendar">28 Juli 2020</i>
+					<p class="info">SMB Digital Solution</p>
+				</div>
+			</div>
+
+			<div class="post">
+				<a href="webinar2.html"><img alt="" class="post-img" src="https://i.ytimg.com/vi/2d_hz4qq_zc/mqdefault.jpg" ></a>
+				<div class="desc">
+					<h2><a href="webinar2.html">Pengembangan Strategi Desain Kemasan dan Branding Produk UMKM</a></h2>
+					<i class="far calendar">20 Juli 2020</i>
+					<p class="info">Kementerian Koperasi dan Usaha Kecil dan Menengah</p>
+				</div>
+			</div>
+
+			<div class="post">
+				<a href="webinar4.html"><img alt="" class="post-img" src="https://i.ytimg.com/vi/QwgG22zTGxE/mqdefault.jpg" ></a>
+				<div class="desc">
+					<h2><a href="webinar4.html">Cara Meningkatkan Omset Usaha - Mengembangkan Usaha UMKM Pasca New Normal</a></h2>
+					<i>19 Juni 2020</i>
+					<p>Budi Ariadi</p>
+				</div>
+			</div>
+		</div>
+
+		</div>
+
+
+
+	</div>
+	<footer>
+		<img src="telp.png" height="10px"><p>+62 821 47568923</p><br>
+		<img src="fb.png" height="10px"><p>UMKM.go</p><br>
+		<img src="ig.png" height="10px"><p>@UMKM_go</p>
+	</footer>
+
+	
+</body>
+</html>
