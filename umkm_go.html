@@ -9,18 +9,19 @@
 		<h1 onclick="alert('Balik ke awal program');">UMKM <span class="go">go</span></h1>
 		<div class="navbar">
 			<ul>
-				<li>OUR CONTENT</li>
-				<li>ABOUT US</li>
-				<li style="float:right">SIGN OUT</li>
+				<li><a href=#about>TENTANG KAMI</a></li>
+				<li><a href=#contact>HUBUNGI KAMI</a></li>
+				<li style="float:right">KELUAR</li>
 				<div class="searchbar">
-					<input class="search-txt" type="text" name="" placeholder="Search"><img src="search.png" height="19px" onclick="alert('searching')">
+					<input class="search-txt" type="text" name="" placeholder="Cari"><img src="search.png" height="19px" onclick="alert('searching')">
 					<!-- masih harus dibenerin sih hehe -->
 				</div>
 			</ul>
 		</div>
 		<!-- ini nantinya buat yg image pencarian -->
-		<h2>OUR CONTENT</h2>
-		<div class="content">
+		<div>
+			<h2>KONTEN KAMI</h2>
+			<div class="content">
 				<div class="item">
 					<img src="content1.png" width="250px" height="200px">
 					<h3>Modul dan<br>Video Teori</h3>
@@ -43,8 +44,23 @@
 					<h3>Q&A <br>dengan Ahli</h3>
 					<p>Platform untuk berkonsultasi secara privat kepada ahli melalui pesan tertulis.</p>
 				</div>
+			</div>
 		</div>
-		
+		<div class="about" id="about">
+			<h2>TENTANG KAMI</h2>
+			<p>
+				<b>UMKM Go</b> adalah website yang menyediakan pendidikan bisnis gratis bagi para
+				pelaku UMKM yang dikemas dalam berbagai bentuk konten.
+				Latar belakang dibuatnya <b>UMKM Go</b> adalah terjadinya stagnasi struktur UMKM di
+				Indonesia, yaitu dominasi usaha mikro yang mencapai 98.7% dari jumlah UMKM selama
+				10 tahun terakhir.
+				Tujuan kami adalah membantu para pelaku usaha mikro untuk mengembangkan bisnisnya
+				agar dapat menjadi usaha kecil bahkan usaha menengah.
+			</p>
+		</div>
+
+
+
 		<button class="open_button" onclick="openForm()">QnA</button>
 
 		<div class="chat_popup" id="myForm">
@@ -70,8 +86,7 @@
 
 		</script>
 
-		<footer>
-			<!-- nanti ditambahin logo telepon, facebook, sama insta nya-->
+		<footer id="contact">
 			<img src="telp.png" height="10px"><p>+62 821 47568923</p><br>
 			<img src="fb.png" height="10px"><p>UMKM.go</p><br>
 			<img src="ig.png" height="10px"><p>@UMKM_go</p>

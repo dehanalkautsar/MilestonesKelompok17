@@ -2,12 +2,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Registration</title>
+    <title>Buat Akun | UMKM Go</title>
+    <link href="./style1.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
+    <h2>Welcome to<h2>
+    <h1>UMKM <span class="go">go</span></h1>
         <div class="header">
-            <h2>Daftar Akun</h2>
+            <h2>DAFTAR AKUN</h2>
         </div>
         <form action="registration.php" method="post">
             <?php include('errors.php') ?>
@@ -42,8 +45,10 @@
                 <label for="bidang">Bidang Usaha : </label>
                 <input type="text" name="bidang" required>
             </div>
-            <button type="submit">Buat Akun</button>
-            <p>Sudah memiliki akun? <a href="login.php"><b>Masuk</b></a></p>
+            <div class="align">
+                <button type="submit">Buat Akun</button>
+                <p>Sudah memiliki akun? <a href="login.php"><b>MASUK</b></a></p>
+            <div>
         </form>
     </div>
 </body>
