@@ -119,6 +119,10 @@ footer img, footer p{
 
 .recent{
     margin: 20px;
+    position: relative;
+    left: 20px;
+    font-family: 'Lucida Sans';
+    color: rgb(97, 97, 97);
 }
 .content .main-content .post{
     margin:20px auto;
@@ -139,4 +143,8 @@ footer img, footer p{
     width: 50%;
     float: right;
     text-decoration: none;
+}
+
+.content .main-content .post .desc h2 {
+    font-family:Tahoma;
 }
