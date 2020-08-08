@@ -78,12 +78,17 @@ h1 {
 
 .searchbar {
     position: absolute;
+<<<<<<< HEAD
     top: 14.4%;
 <<<<<<< HEAD
     left: 84%;
 =======
     left: 84.5%;
 >>>>>>> bd08049a6db553d671797490a3f269467c81a4f1
+=======
+    top: 95px;
+    left: 1130px;
+>>>>>>> 0998a6ed30b4be85badafced563482e4731a202e
     transform: translate(-50%,-50%);
     height: 40px;
     border-radius: 40px;
