@@ -39,6 +39,16 @@ h1 {
     color: whitesmoke;
 }
 
+.navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
 .searchbar {
     position: absolute;
     top: 95px;

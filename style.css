@@ -167,3 +167,12 @@ h4 {
     margin: auto;
 }
 
+.playlist{
+    background: rgb(15, 94, 90);
+    width:auto;
+    height:305px;
+}
+
+.web-lain{
+    color: white;
+}
