@@ -8,14 +8,14 @@
 
 </head>
 <body>
-	<h1>UMKM <span class="go">go</span></h1>
-		<div class="navbar">
-			<ul>
-				<li>TENTANG KAMI</li>
-				<li>HUBUNGI KAMI</li>
-				<li style="float:right">KELUAR</li>
+	<a style="text-decoration:none" href="./umkm_go.html"><h1 onclick="alert('Kembali ke halaman utama');">UMKM <span class="go">go</span></h1></a>
+	<div class="navbar">
+		<ul>
+			<li><a href="./umkm_go.html#about">TENTANG KAMI</li>
+				<li><a href=#contact>HUBUNGI KAMI</a></li>
+				<li style="float:right"><a href="index.php?logout=1">KELUAR</a></li>
 				<div class="searchbar">
-					<input class="search-txt" type="text" name="" placeholder="Search"><img src="search.png" height="19px" onclick="alert('searching')">
+					<input class="search-txt" type="text" name="" placeholder="Cari"><img src="search.png" height="19px" onclick="alert('Mencari..')">
 				</div>
 			</ul>
 		</div>
@@ -57,12 +57,21 @@
 
 	<div class="content clearfix">
 		<div class="main-content">
+<<<<<<< HEAD
 			<h2 class="recent">Past Webinars</h2>
 
 			<div class="post">
 				<a href="webinar3.html"><img alt="" class="post-img" src="https://i.ytimg.com/vi/wO77ZZIYzA8/mqdefault.jpg" ></a>
 				<div class="desc">
 					<h2><a href="webinar3.html">APINDO UMKM AKADEMI: Teknik Marketing dan Pengembangan Usaha</a></h2>
+=======
+			<h2 class="recent">Webinar Lainnya</h2>
+			
+			<div class="post">
+				<a href="webinar3.html"><img alt="" class="post-img" src="https://i.ytimg.com/vi/wO77ZZIYzA8/mqdefault.jpg" ></a>
+				<div class="desc">
+					<h2><a href="webinar3.html">APINDO UMKM AKADEMI: TEKNIK MARKETING DAN PENGEMBANGAN USAHA</a></h2>
+>>>>>>> 824ef920c9012b9f153810fc621f5a8c11ab6688
 					<i class="far calendar">24 Juli 2020</i>
 					<p class="info">TopKarir Indonesia</p>
 				</div>
@@ -92,7 +101,7 @@
 
 
 	</div>
-	<footer>
+	<footer id="contact">
 		<img src="telp.png" height="10px"><p>+62 821 47568923</p><br>
 		<img src="fb.png" height="10px"><p>UMKM.go</p><br>
 		<img src="ig.png" height="10px"><p>@UMKM_go</p>
