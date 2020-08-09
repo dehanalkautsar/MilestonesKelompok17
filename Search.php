@@ -22,18 +22,15 @@
 				<li><a href=#contact>HUBUNGI KAMI</a></li>
 				<li style="float:right">KELUAR</li>
 				<div class="searchbar">
-					<input class="search-txt" type="text" name="" placeholder="Cari">
-					<a href="search.php"><img src="search.png" height="19px" ></a>
-					<!-- masih harus dibenerin sih hehe -->
+                    <form action="search.php" methods="get" id="searchForm" >
+                        <input type="text" name = "q" id="searchBox" placeholder="Cari" >
+                        <input type="submit" name = "searchButton" value="Go">
+                    </form>
 				</div>
 			</ul>
 		</div>
 		<!-- ini nantinya buat yg image pencarian -->
 		<div>
-        <form action="search.php" methods="get" id="searchForm" >
-            <input type="text" name = "q" id="searchBox" placeholder="Cari" >
-            <input type="submit" name = "searchButton" value="Go">
-        </form>
         <?php  
         if (isset($_GET["searchButton"])){
             $q = $_GET["q"];
