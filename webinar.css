@@ -1,26 +1,25 @@
-
 body {
-    background-color: rgb(255, 255, 179);
+    background-color: whitesmoke !important;
     padding: 0;
     margin: 0;;
 }
 
 h1 {
-    color: grey;
+    color: rgb(44, 68, 88);
     font-size: 30px;
     font-family: Verdana;
     margin: 10px 20px;
 }
 
 .go{
-    color: grey;
+    color: rgb(44, 68, 88);
     font-size: 30px;
     font-family: 'Lucida Handwriting';
     margin-left: -10px;
 }
 
 .navbar ul{
-    background-color: rgb(18, 100, 96);
+    background-color: rgb(18, 100, 141);
     list-style-type: none;
     padding : 0;
     overflow: hidden;
@@ -72,7 +71,7 @@ footer{
     font-weight: 700;
     margin-top: 40px;
     width: 100% !important;
-    background-color: rgb(106, 180, 177);
+    background-color: rgb(112, 162, 202);
     padding-bottom: 15px;
 }
 
@@ -157,4 +156,14 @@ footer img, footer p{
 
 .content .main-content .post .desc h2 {
     font-family:Tahoma;
+}
+
+.navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
 }

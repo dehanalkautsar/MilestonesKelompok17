@@ -2,21 +2,21 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<title>UMKM GO</title>
 	<link href="./style.css" type="text/css" rel="stylesheet">
 	<link href="./chatbox.css" type="text/css" rel="stylesheet">
-    <link href="./videoteori.css" type="text/css" rel="stylesheet">
+  <link href="./videoteori.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-	<h1><b>UMKM <span class="go">go</span></b></h1>
+	<a style="text-decoration:none" href="./umkm_go.html"><h1 onclick="alert('Kembali ke halaman utama');">UMKM <span class="go">go</span></h1></a>
 	<div class="navbar">
 		<ul>
-			<li>OUR CONTENT</li>
-			<li>ABOUT US</li>
-			<li style="float:right">SIGN IN</li>
+			<li><a href="./umkm_go.html#about">TENTANG KAMI</li>
+			<li><a href=#contact>HUBUNGI KAMI</a></li>
+      <li style="float:right"><a href="index.php?logout=1">KELUAR</a></li>
 			<div class="searchbar" style="position: absolute;
       top: 92px; left: 1095px;
       transform: translate(-50%,-50%);
@@ -34,7 +34,7 @@
 			</div>
 		</ul>
 	</div>
-  <h2>Video Tutorial</h2>
+  <h2>Video Teori</h2>
   <div id="slider">
     <input type="radio" name="slider" id="slide1" checked>
     <input type="radio" name="slider" id="slide2">
@@ -132,7 +132,7 @@
 
 	</script>
 
-	<footer>
+	<footer id="contact">
     <img src="telp.png" height="10px"><p>+62 821 47568923</p><br>
     <br>
     <img src="fb.png" height="10px"><p>UMKM.go</p><br>
