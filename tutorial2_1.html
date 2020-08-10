@@ -13,7 +13,10 @@
 			<li><a href=#contact>HUBUNGI KAMI</a></li>
 		  	<li style="float:right"><a href="index.php?logout=1">KELUAR</a></li>
 			<div class="searchbar">
-				<input class="search-txt" type="text" name="" placeholder="Cari"><img src="search.png" height="19px" onclick="alert('Mencari..')">
+                <form action="search.php" methods="get" id="searchForm" >
+                    <input type="text" name = "q" id="searchBox" placeholder="Cari" >
+                    <a href="Search.php"><input type="submit" name = "searchButton" value="Go"></a>
+                </form>
 			</div>
 		</ul>
     </div>

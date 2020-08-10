@@ -23,14 +23,10 @@
       height: 184px;
       border-radius: 40px;
       padding: 10px;">
-        <input class="search-txt" type="text" name="" placeholder="Search" style="height:20.85px; width: 177px;"> 
-        <img src="search.png" height="19px" onclick="alert('searching')" style="display: inline-block; position: absolute;
-        right: -35px;
-        top: 51px;
-        margin-top: -40px;
-        margin-bottom: 15.5px;
-        margin-left: 177.5px;
-        margin-right: 10px;">
+          <form action="search.php" methods="get" id="searchForm" >
+              <input type="text" name = "q" id="searchBox" placeholder="Cari" >
+              <a href="Search.php"><input type="submit" name = "searchButton" value="Go"></a>
+          </form>
 			</div>
 		</ul>
 	</div>

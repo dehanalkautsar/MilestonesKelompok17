@@ -4,6 +4,7 @@
     <head>
         <title>Search</title>
         <link href="./style.css" type="text/css" rel="stylesheet">
+        <link href="./chatbox.css" type="text/css" rel="stylesheet">
         <style>
         h3 {
             margin: 20px 0px 0px 0px;
@@ -15,12 +16,12 @@
         </style>
     </head>
     <body>
-        <h1 onclick="alert('Balik ke awal program');">UMKM <span class="go">go</span></h1>
+    <a style="text-decoration:none" href="./umkm_go.html"><h1 onclick="alert('Kembali ke halaman utama');">UMKM <span class="go">go</span></h1></a>
         <div class="navbar">
 			<ul>
-				<li><a href=#about>TENTANG KAMI</a></li>
-				<li><a href=#contact>HUBUNGI KAMI</a></li>
-				<li style="float:right">KELUAR</li>
+			    <li><a href="./umkm_go.html#about">TENTANG KAMI</li>
+			    <li><a href="./umkm_go.html#contact">HUBUNGI KAMI</a></li>
+		  	    <li style="float:right"><a href="index.php?logout=1">KELUAR</a></li>
 				<div class="searchbar">
                     <form action="search.php" methods="get" id="searchForm" >
                         <input type="text" name = "q" id="searchBox" placeholder="Cari" >
@@ -50,10 +51,43 @@
                     }
 
                     if ($count == 0){
-                        echo "Tidak Ditemukan";
+                        echo "<h3>Tidak Ditemukan<h3>";
                     }
             }
         }
         ?>
+
+    <footer id="contact" style="  position: absolute; bottom: 0;width: 100%;">
+        <img src="telp.png" height="10px"><p>+62 821 47568923</p><br>
+        <img src="fb.png" height="10px"><p>UMKM.go</p><br>
+        <img src="ig.png" height="10px"><p>@UMKM_go</p>
+    </footer>
+
+    <!--ChatBox-->
+    <button class="open_button" onclick="openForm()">QnA</button>
+
+    <div class="chat_popup" id="myForm">
+        <form class="form_container">
+            <h1 class="chatty">Chat</h1>
+            <label for="msg">Kamu bisa berdisuksi dengan ahli ekonomi di forum ini!</label>
+            <textarea placeholder="Ask the expert..." name="msg" required></textarea>
+
+            <button type="submit" class="submit_btn">Send</button>
+            <button type="button" class="cancel_btn" onclick="closeForm()">Close</button>
+            <button type="button" class="inbox">Inbox</button>
+        </form>
+    </div>
+
+    <script>
+    function openForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+    }	
+
+    </script>
+
     </body>
 </html>
