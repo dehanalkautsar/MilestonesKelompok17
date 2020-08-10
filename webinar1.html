@@ -6,18 +6,18 @@
 	<link href="./chatbox.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-	<h1>UMKM <span class="go">go</span></h1>
+	<a style="text-decoration:none" href="./umkm_go.html"><h1 onclick="alert('Kembali ke halaman utama');">UMKM <span class="go">go</span></h1></a>
 	<div class="navbar">
 		<ul>
-			<li>TENTANG KAMI</li>
-			<li>HUBUNGI KAMI</li>
-			<li style="float:right">SIGN IN</li>
+			<li><a href="./umkm_go.html#about">TENTANG KAMI</li>
+			<li><a href=#contact>HUBUNGI KAMI</a></li>
+			<li style="float:right"><a href="index.php?logout=1">KELUAR</a></li>
 			<div class="searchbar">
-				<form action="search.php" methods="get" id="searchForm" >
-					<input type="text" name = "q" id="searchBox" placeholder="Cari" >
-					<a href="Search.php"><input type="submit" name = "searchButton" value="Go"></a>
-				</form>
-			</div>		
+                <form action="search.php" methods="get" id="searchForm" >
+                    <input type="text" name = "q" id="searchBox" placeholder="Cari" >
+                    <a href="Search.php"><input type="submit" name = "searchButton" value="Go"></a>
+                </form>
+			</div>
 		</ul>
 	</div>
 	<p align ="center">
@@ -65,7 +65,7 @@
 	</script>
 
 
-	<footer>
+	<footer id="contact">
 		<img src="telp.png" height="10px"><p>+62 821 47568923</p><br>
 		<img src="fb.png" height="10px"><p>UMKM.go</p><br>
 		<img src="ig.png" height="10px"><p>@UMKM_go</p>
