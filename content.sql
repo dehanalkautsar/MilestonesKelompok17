@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 10, 2020 at 04:40 PM
+-- Generation Time: Aug 10, 2020 at 05:59 PM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.4.8
 
@@ -47,7 +47,10 @@ INSERT INTO `content` (`id`, `Title`, `Description`, `Link`) VALUES
 (6, 'Starting a Small Business Pt.2', 'Cara mengetahui jenis pelanggan lalu membuat strategi marketing', 'tutorial1_2.html'),
 (7, 'Starting a Small Business Pt.3', 'Cara menghadapi kompetisi pasar dan membuat strategi bersaing yang baik dalam pemasaran', 'tutorial1_3.html'),
 (8, 'Building a Business, Lecture 1', 'Apa definisi dari pengusaha dan haruskah kita menjadi pengusaha?', 'tutorial2_1.html'),
-(9, 'Building a Business, Lecture 2', 'Alasan mendasar untuk membuat usaha', 'tutorial2_2.html');
+(9, 'Building a Business, Lecture 2', 'Alasan mendasar untuk membuat usaha', 'tutorial2_2.html'),
+(10, 'Tips Bisnis Pemula - Dasar2 Membangun Bisnis (1) - Coach Hendra Hilman', 'Dasar-dasar membangun bisnis yang penting untuk dipelajari.', 'videoteori.html'),
+(11, 'Tips Bisnis Pemula - Dasar2 Membangun Bisnis (2) - Coach Hendra Hilman', 'Cara memastikan bahwa bisnis tidak kandas sebelum 5 tahun.', 'videoteori.html'),
+(12, 'Tips Bisnis Pemula - Dasar2 Membangun Bisnis (3) - Coach Hendra Hilman', 'Cara memberikan hasil yang maksimal bagi pertumbuhan bisnis.', 'videoteori.html');
 
 --
 -- Indexes for dumped tables
@@ -67,7 +70,7 @@ ALTER TABLE `content`
 -- AUTO_INCREMENT for table `content`
 --
 ALTER TABLE `content`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
