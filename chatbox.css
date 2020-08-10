@@ -3,7 +3,7 @@ body {
 }
 
 .open_button {
-     background-image: linear-gradient(20deg, rgb(67, 123, 141), rgb(184, 69, 184));
+     background-color: orange;
      color: white;
      padding: 16px 20px;
      cursor: pointer;
@@ -27,7 +27,7 @@ body {
 .form_container {
      max-width: 300px;
      padding: 10px;
-     background-image: linear-gradient(20deg, lightblue, violet);
+     background-image: linear-gradient(20deg, lightblue, white);
 }
 
 .form_container .chatty {
@@ -58,7 +58,7 @@ body {
 }
    
 .form_container .submit_btn {
-     background-color: #4CAF50;
+     background-color: teal;
      color: white;
      border: none;
      padding: 16px 20px;
@@ -79,7 +79,7 @@ body {
 }
 
 .form_container .inbox {
-     background-color: yellowgreen;
+     background-color: orange;
      color: white;
      border: none;
      width: 49%;
