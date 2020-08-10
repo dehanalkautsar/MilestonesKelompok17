@@ -5,12 +5,12 @@
 17 / UMKM GO
 # Nama/NIM/Kontribusi Anggota Kelompok:
 1. Muhammad Darrel Alwafin / 16519043 / Memilih video tutorial dan mendesain mock up website awal. <br />
-2. Aulia Adila / 16519152 / ....... <br />
+2. Aulia Adila / 16519152 / Menangani seluruh modul teori <br />
 3. Muhammad Dehan Al Kautsar / 16519213 / Merancang kerangka homepage awal (html), membuat frontend searchbar dan QnA, menyeragamkan hal-hal kecil seperti reposisi <br />
 4. Isabella Handayani Sumantri / 16519251 / Input video dan thumbnail webinar3,webinar4, dan video dengan listnya di webinar_main <br />
 5. Ahmad Saladin / 16519263 / Membuat sistem login dan logout, backend fitur search, dan search page  <br />
 6. Maximilian Lukman / 16519266 / Input video-video tutorial dan mengatur layout tutorial1_1 hingga tutorial2_2 <br />
-7. Parnaek Routther Siagian / 16519271 / ...... <br />
+7. Parnaek Routther Siagian / 16519271 / Mendiskusikan fitur QnA <br />
 8. Muhammad Farhan / 16519288 / Membuat style homepage (css) <br />
 9. Nadya Laurentia / 16519473 / Merancang kerangka homepage awal (html dan style.css), membuat sistem sign up dan login (php+database+css), menyeragamkan hyperlink seluruh page <br />
 10. Shelly Valencia / 16519489 / Menangani seluruh video teori <br />
